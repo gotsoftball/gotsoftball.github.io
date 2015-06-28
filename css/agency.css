@@ -17,17 +17,6 @@ body {
     color: #fed136;
 }
 
-
-ul.intro-social-buttons > li {
-    display: block;
-    margin-bottom: 20px;
-    padding: 0;
-}
-
-ul.intro-social-buttons > li:last-child {
-    margin-bottom: 0;
-}
-
 p {
     font-size: 14px;
     line-height: 1.75;
@@ -276,7 +265,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/got-header-bg.jpg);
+    background-image: url(../img/header-bg.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -662,68 +651,68 @@ aside.clients img {
     margin: 50px auto;
 }
 
-section#contact {
+section#map {
     background-color: #222;
     background-image: url(../img/map-image.png);
     background-position: center;
     background-repeat: no-repeat;
 }
 
-section#contact .section-heading {
+section#map .section-heading {
     color: #fff;
 }
 
-section#contact .form-group {
+section#map .form-group {
     margin-bottom: 25px;
 }
 
-section#contact .form-group input,
-section#contact .form-group textarea {
+section#map .form-group input,
+section#map .form-group textarea {
     padding: 20px;
 }
 
-section#contact .form-group input.form-control {
+section#map .form-group input.form-control {
     height: auto;
 }
 
-section#contact .form-group textarea.form-control {
+section#map .form-group textarea.form-control {
     height: 236px;
 }
 
-section#contact .form-control:focus {
+section#map .form-control:focus {
     border-color: #fed136;
     box-shadow: none;
 }
 
-section#contact::-webkit-input-placeholder {
+section#map::-webkit-input-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact:-moz-placeholder {
+section#map:-moz-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact::-moz-placeholder {
+section#map::-moz-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact:-ms-input-placeholder {
+section#map:-ms-input-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact .text-danger {
+section#map .text-danger {
     color: #e74c3c;
 }
 
@@ -771,6 +760,32 @@ ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
     background-color: #fed136;
 }
+
+ul.social-buttons-inv {
+    margin-bottom: 0;
+}
+
+ul.social-buttons-inv li a {
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    font-size: 40px;
+    line-height: 80px;
+    outline: 0;
+    color: #fff;
+    background-color: #222;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+ul.social-buttons-inv li a:hover,
+ul.social-buttons-inv li a:focus,
+ul.social-buttons-inv li a:active {
+    background-color: #fed136;
+}
+
 
 .btn:focus,
 .btn:active,
