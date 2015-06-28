@@ -21,11 +21,11 @@ body {
 ul.intro-social-buttons > li {
 
     margin-bottom: 20px;
-    padding: 0;
+    padding: 10px;
 }
 
 ul.intro-social-buttons > li:last-child {
-    margin-bottom: 0;
+    margin-bottom: 20px;
 }
 
 p {
